@@ -86,7 +86,10 @@ public class MainActivity extends AppCompatActivity
             dialogos.setClass(getApplicationContext(),dialog.class);
             startActivity(dialogos);
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.grabadora) {
+            Intent grabadoras = new Intent();
+            grabadoras.setClass(getApplicationContext(),grabadora.class);
+        startActivity(grabadoras);
 
         } else if (id == R.id.nav_slideshow) {
 
